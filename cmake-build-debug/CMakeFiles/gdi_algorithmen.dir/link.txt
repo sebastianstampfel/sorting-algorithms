@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/gdi_algorithmen.dir/main.c.o  -o gdi_algorithmen 

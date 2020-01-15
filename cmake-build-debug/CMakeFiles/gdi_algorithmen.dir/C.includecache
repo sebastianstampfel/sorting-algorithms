@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sebastian/CLionProjects/gdi-algorithmen/main.c
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.c
 stdio.h
 -
 stdlib.h

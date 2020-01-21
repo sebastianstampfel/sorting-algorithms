@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/97/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/99/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/97/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/99/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sebastian/CLionProjects/bic1-gdi-algorithmen
+CMAKE_SOURCE_DIR = /home/mint-box/CLionProjects/bic1-gdi-algorithmen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-buil
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/97/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/99/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/97/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/99/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles /home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles /home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ gdi_algorithmen/fast:
 	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/build
 .PHONY : gdi_algorithmen/fast
 
+binary-search.o: binary-search.c.o
+
+.PHONY : binary-search.o
+
+# target to build an object file
+binary-search.c.o:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/binary-search.c.o
+.PHONY : binary-search.c.o
+
+binary-search.i: binary-search.c.i
+
+.PHONY : binary-search.i
+
+# target to preprocess a source file
+binary-search.c.i:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/binary-search.c.i
+.PHONY : binary-search.c.i
+
+binary-search.s: binary-search.c.s
+
+.PHONY : binary-search.s
+
+# target to generate assembly for a file
+binary-search.c.s:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/binary-search.c.s
+.PHONY : binary-search.c.s
+
+bubblesort.o: bubblesort.c.o
+
+.PHONY : bubblesort.o
+
+# target to build an object file
+bubblesort.c.o:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/bubblesort.c.o
+.PHONY : bubblesort.c.o
+
+bubblesort.i: bubblesort.c.i
+
+.PHONY : bubblesort.i
+
+# target to preprocess a source file
+bubblesort.c.i:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/bubblesort.c.i
+.PHONY : bubblesort.c.i
+
+bubblesort.s: bubblesort.c.s
+
+.PHONY : bubblesort.s
+
+# target to generate assembly for a file
+bubblesort.c.s:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/bubblesort.c.s
+.PHONY : bubblesort.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -150,6 +204,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/main.c.s
 .PHONY : main.c.s
 
+mergesort.o: mergesort.c.o
+
+.PHONY : mergesort.o
+
+# target to build an object file
+mergesort.c.o:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/mergesort.c.o
+.PHONY : mergesort.c.o
+
+mergesort.i: mergesort.c.i
+
+.PHONY : mergesort.i
+
+# target to preprocess a source file
+mergesort.c.i:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/mergesort.c.i
+.PHONY : mergesort.c.i
+
+mergesort.s: mergesort.c.s
+
+.PHONY : mergesort.s
+
+# target to generate assembly for a file
+mergesort.c.s:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/mergesort.c.s
+.PHONY : mergesort.c.s
+
+quicksort.o: quicksort.c.o
+
+.PHONY : quicksort.o
+
+# target to build an object file
+quicksort.c.o:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/quicksort.c.o
+.PHONY : quicksort.c.o
+
+quicksort.i: quicksort.c.i
+
+.PHONY : quicksort.i
+
+# target to preprocess a source file
+quicksort.c.i:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/quicksort.c.i
+.PHONY : quicksort.c.i
+
+quicksort.s: quicksort.c.s
+
+.PHONY : quicksort.s
+
+# target to generate assembly for a file
+quicksort.c.s:
+	$(MAKE) -f CMakeFiles/gdi_algorithmen.dir/build.make CMakeFiles/gdi_algorithmen.dir/quicksort.c.s
+.PHONY : quicksort.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... gdi_algorithmen"
 	@echo "... edit_cache"
+	@echo "... binary-search.o"
+	@echo "... binary-search.i"
+	@echo "... binary-search.s"
+	@echo "... bubblesort.o"
+	@echo "... bubblesort.i"
+	@echo "... bubblesort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mergesort.o"
+	@echo "... mergesort.i"
+	@echo "... mergesort.s"
+	@echo "... quicksort.o"
+	@echo "... quicksort.i"
+	@echo "... quicksort.s"
 .PHONY : help
 
 

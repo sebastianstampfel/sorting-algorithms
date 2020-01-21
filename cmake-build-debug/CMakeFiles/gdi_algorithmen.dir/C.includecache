@@ -6,7 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/sebastian/CLionProjects/bic1-gdi-algorithmen/main.c
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/binary-search.h
+main.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/bubblesort.h
+main.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.c
+bubblesort.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/bubblesort.h
+quicksort.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/quicksort.h
+mergesort.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/mergesort.h
+binary-search.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/binary-search.h
+main.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
 stdio.h
 -
 stdlib.h
@@ -15,4 +35,12 @@ time.h
 -
 string.h
 -
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/mergesort.h
+main.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/quicksort.h
+main.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
 

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>GDI - Algorithmen: binary-search.h File Reference</title>
+<title>GDI - Algorithmen: main.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,52 +61,69 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">binary-search.h File Reference</div>  </div>
+<div class="title">main.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Adds functionality for task 2 - binary search.  
+<p>Main file for gdi-algorithms.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="main_8h_source.html">main.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
 </div>
-<p><a href="binary-search_8h_source.html">Go to the source code of this file.</a></p>
+<p><a href="main_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structnode.html">node</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ac5fd473f13cc6b7473d4cad23d3d495a"><td class="memItemLeft" align="right" valign="top"><a id="ac5fd473f13cc6b7473d4cad23d3d495a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_NUMBER</b>&#160;&#160;&#160;32767</td></tr>
+<tr class="separator:ac5fd473f13cc6b7473d4cad23d3d495a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a78aed02698c5b61c38354cb7cb5a3a78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="binary-search_8h.html#a78aed02698c5b61c38354cb7cb5a3a78">binarysearch</a> (int amount)</td></tr>
-<tr class="memdesc:a78aed02698c5b61c38354cb7cb5a3a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for the whole binary search operation.  <a href="#a78aed02698c5b61c38354cb7cb5a3a78">More...</a><br /></td></tr>
-<tr class="separator:a78aed02698c5b61c38354cb7cb5a3a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afef8f731286cffa7164b7af4e14af7f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnode.html">node</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8h.html#afef8f731286cffa7164b7af4e14af7f0">randomizedArray</a> (int elementCount)</td></tr>
+<tr class="memdesc:afef8f731286cffa7164b7af4e14af7f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates an array (list) of struct node.  <a href="#afef8f731286cffa7164b7af4e14af7f0">More...</a><br /></td></tr>
+<tr class="separator:afef8f731286cffa7164b7af4e14af7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Adds functionality for task 2 - binary search. </p>
-<p>Generates a randomized list of nodes and prompts the user to input a number to search for. Prints found number. </p>
+<div class="textblock"><p>Main file for gdi-algorithms. </p>
+<p>Implements bubblesort, mergesort and quicksort. Runtime of these algorithms is measured in seconds and displayed. Also, binary search is implemented for the second task. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a78aed02698c5b61c38354cb7cb5a3a78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78aed02698c5b61c38354cb7cb5a3a78">&#9670;&nbsp;</a></span>binarysearch()</h2>
+<a id="afef8f731286cffa7164b7af4e14af7f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afef8f731286cffa7164b7af4e14af7f0">&#9670;&nbsp;</a></span>randomizedArray()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void binarysearch </td>
+          <td class="memname"><a class="el" href="structnode.html">node</a>* randomizedArray </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>amount</em></td><td>)</td>
+          <td class="paramname"><em>elementCount</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Function for the whole binary search operation. </p>
-<p>Generates a list of n nodes (n = <code>amount</code>), and fills the nodes with random data. Sorts the list in ascending order using qsort() afterwards. User will be prompted to enter a number to search for. If the search criteria is met by one element, this element will be printed to stdout.</p>
+<p>Generates an array (list) of struct node. </p>
+<p>Generates an array (list) of struct node, fills it with random data and returns a pointer to the start (first element) of the array.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">amount</td><td>Amount of nodes for the randomized list </td></tr>
+    <tr><td class="paramname">elementCount</td><td>Amount of elements to be used </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to list </dd></dl>
 
 </div>
 </div>

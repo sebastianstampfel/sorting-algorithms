@@ -2,6 +2,8 @@
 
 void mergesortStruct(node *list, int low_index, int high_index){
     int mid;
+    // Stops recursion if low = high,
+    // meaning only one element left (or something else went wrong)
     if(low_index < high_index){
         mid = (low_index+high_index)/2;
         mergesortStruct(list, low_index, mid);                // Left
@@ -18,6 +20,7 @@ void mergeStruct(node *list, int low_1, int high_1, int low_2, int high_2){
     secondListStart = low_2;
     k = 0;
 
+    // While end of both lists has not been reached
     while(firstListStart <= high_1 && secondListStart <= high_2){
         if((list + firstListStart)->number < (list + secondListStart)->number){
             (temp+k)->number = (list + firstListStart)->number;
@@ -42,6 +45,7 @@ void mergeStruct(node *list, int low_1, int high_1, int low_2, int high_2){
         secondListStart++;
     }
 
+    // All elements from temp back to list passed as param
     for(firstListStart = low_1, secondListStart = 0; firstListStart <= high_2; firstListStart++, secondListStart++){
         (list + firstListStart)->number = (temp + secondListStart)->number;
     }

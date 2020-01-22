@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/mint-box/CLionProjects/bic1-gdi-algorithmen/binary-search.c" "/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/binary-search.c.o"
-  "/home/mint-box/CLionProjects/bic1-gdi-algorithmen/bubblesort.c" "/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/bubblesort.c.o"
-  "/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.c" "/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/main.c.o"
-  "/home/mint-box/CLionProjects/bic1-gdi-algorithmen/mergesort.c" "/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/mergesort.c.o"
-  "/home/mint-box/CLionProjects/bic1-gdi-algorithmen/quicksort.c" "/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/quicksort.c.o"
+  "/home/sebastian/CLionProjects/bic1-gdi-algorithmen/binary-search.c" "/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/binary-search.c.o"
+  "/home/sebastian/CLionProjects/bic1-gdi-algorithmen/bubblesort.c" "/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/bubblesort.c.o"
+  "/home/sebastian/CLionProjects/bic1-gdi-algorithmen/main.c" "/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/main.c.o"
+  "/home/sebastian/CLionProjects/bic1-gdi-algorithmen/mergesort.c" "/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/mergesort.c.o"
+  "/home/sebastian/CLionProjects/bic1-gdi-algorithmen/quicksort.c" "/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/quicksort.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

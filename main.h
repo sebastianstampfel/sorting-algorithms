@@ -12,6 +12,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
+#include <ncurses.h>
+#include <menu.h>
 
 struct node {
     int number;
@@ -28,6 +30,8 @@ struct node {
  * @return Pointer to list
  */
 node* randomizedArray(int elementCount);
+void printInMiddle(WINDOW *win, int starty, int startx, int width, char *string, chtype color);
+void itemSelectionHandler(char *name);
 
 
 #endif //GDI_ALGORITHMEN_MAIN_H

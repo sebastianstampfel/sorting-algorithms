@@ -6,7 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/sebastian/CLionProjects/bic1-gdi-algorithmen/main.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/binary-search.c
+errno.h
+-
+binary-search.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/binary-search.h
+quicksort.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/quicksort.h
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/binary-search.h
+main.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/bubblesort.c
+bubblesort.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/bubblesort.h
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/bubblesort.h
+main.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.c
+bubblesort.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/bubblesort.h
+quicksort.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/quicksort.h
+mergesort.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/mergesort.h
+binary-search.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/binary-search.h
+main.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
 stdio.h
 -
 stdlib.h
@@ -15,12 +47,24 @@ time.h
 -
 string.h
 -
+ncurses.h
+-
+menu.h
+-
 
-/home/sebastian/CLionProjects/bic1-gdi-algorithmen/mergesort.c
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/mergesort.c
 mergesort.h
-/home/sebastian/CLionProjects/bic1-gdi-algorithmen/mergesort.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/mergesort.h
 
-/home/sebastian/CLionProjects/bic1-gdi-algorithmen/mergesort.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/mergesort.h
 main.h
-/home/sebastian/CLionProjects/bic1-gdi-algorithmen/main.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/quicksort.c
+quicksort.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/quicksort.h
+
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/quicksort.h
+main.h
+/home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.h
 

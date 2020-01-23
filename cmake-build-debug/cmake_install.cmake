@@ -1,4 +1,4 @@
-# Install script for directory: /home/sebastian/CLionProjects/bic1-gdi-algorithmen
+# Install script for directory: /home/mint-box/CLionProjects/bic1-gdi-algorithmen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

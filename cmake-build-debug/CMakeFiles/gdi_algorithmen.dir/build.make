@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/97/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/99/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/97/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/99/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sebastian/CLionProjects/bic1-gdi-algorithmen
+CMAKE_SOURCE_DIR = /home/mint-box/CLionProjects/bic1-gdi-algorithmen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gdi_algorithmen.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/gdi_algorithmen.dir/flags.make
 
 CMakeFiles/gdi_algorithmen.dir/main.c.o: CMakeFiles/gdi_algorithmen.dir/flags.make
 CMakeFiles/gdi_algorithmen.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/gdi_algorithmen.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdi_algorithmen.dir/main.c.o   -c /home/sebastian/CLionProjects/bic1-gdi-algorithmen/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/gdi_algorithmen.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdi_algorithmen.dir/main.c.o   -c /home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.c
 
 CMakeFiles/gdi_algorithmen.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdi_algorithmen.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sebastian/CLionProjects/bic1-gdi-algorithmen/main.c > CMakeFiles/gdi_algorithmen.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.c > CMakeFiles/gdi_algorithmen.dir/main.c.i
 
 CMakeFiles/gdi_algorithmen.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdi_algorithmen.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sebastian/CLionProjects/bic1-gdi-algorithmen/main.c -o CMakeFiles/gdi_algorithmen.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mint-box/CLionProjects/bic1-gdi-algorithmen/main.c -o CMakeFiles/gdi_algorithmen.dir/main.c.s
 
 CMakeFiles/gdi_algorithmen.dir/quicksort.c.o: CMakeFiles/gdi_algorithmen.dir/flags.make
 CMakeFiles/gdi_algorithmen.dir/quicksort.c.o: ../quicksort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/gdi_algorithmen.dir/quicksort.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdi_algorithmen.dir/quicksort.c.o   -c /home/sebastian/CLionProjects/bic1-gdi-algorithmen/quicksort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/gdi_algorithmen.dir/quicksort.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdi_algorithmen.dir/quicksort.c.o   -c /home/mint-box/CLionProjects/bic1-gdi-algorithmen/quicksort.c
 
 CMakeFiles/gdi_algorithmen.dir/quicksort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdi_algorithmen.dir/quicksort.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sebastian/CLionProjects/bic1-gdi-algorithmen/quicksort.c > CMakeFiles/gdi_algorithmen.dir/quicksort.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mint-box/CLionProjects/bic1-gdi-algorithmen/quicksort.c > CMakeFiles/gdi_algorithmen.dir/quicksort.c.i
 
 CMakeFiles/gdi_algorithmen.dir/quicksort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdi_algorithmen.dir/quicksort.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sebastian/CLionProjects/bic1-gdi-algorithmen/quicksort.c -o CMakeFiles/gdi_algorithmen.dir/quicksort.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mint-box/CLionProjects/bic1-gdi-algorithmen/quicksort.c -o CMakeFiles/gdi_algorithmen.dir/quicksort.c.s
 
 CMakeFiles/gdi_algorithmen.dir/bubblesort.c.o: CMakeFiles/gdi_algorithmen.dir/flags.make
 CMakeFiles/gdi_algorithmen.dir/bubblesort.c.o: ../bubblesort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/gdi_algorithmen.dir/bubblesort.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdi_algorithmen.dir/bubblesort.c.o   -c /home/sebastian/CLionProjects/bic1-gdi-algorithmen/bubblesort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/gdi_algorithmen.dir/bubblesort.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdi_algorithmen.dir/bubblesort.c.o   -c /home/mint-box/CLionProjects/bic1-gdi-algorithmen/bubblesort.c
 
 CMakeFiles/gdi_algorithmen.dir/bubblesort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdi_algorithmen.dir/bubblesort.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sebastian/CLionProjects/bic1-gdi-algorithmen/bubblesort.c > CMakeFiles/gdi_algorithmen.dir/bubblesort.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mint-box/CLionProjects/bic1-gdi-algorithmen/bubblesort.c > CMakeFiles/gdi_algorithmen.dir/bubblesort.c.i
 
 CMakeFiles/gdi_algorithmen.dir/bubblesort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdi_algorithmen.dir/bubblesort.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sebastian/CLionProjects/bic1-gdi-algorithmen/bubblesort.c -o CMakeFiles/gdi_algorithmen.dir/bubblesort.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mint-box/CLionProjects/bic1-gdi-algorithmen/bubblesort.c -o CMakeFiles/gdi_algorithmen.dir/bubblesort.c.s
 
 CMakeFiles/gdi_algorithmen.dir/mergesort.c.o: CMakeFiles/gdi_algorithmen.dir/flags.make
 CMakeFiles/gdi_algorithmen.dir/mergesort.c.o: ../mergesort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/gdi_algorithmen.dir/mergesort.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdi_algorithmen.dir/mergesort.c.o   -c /home/sebastian/CLionProjects/bic1-gdi-algorithmen/mergesort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/gdi_algorithmen.dir/mergesort.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdi_algorithmen.dir/mergesort.c.o   -c /home/mint-box/CLionProjects/bic1-gdi-algorithmen/mergesort.c
 
 CMakeFiles/gdi_algorithmen.dir/mergesort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdi_algorithmen.dir/mergesort.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sebastian/CLionProjects/bic1-gdi-algorithmen/mergesort.c > CMakeFiles/gdi_algorithmen.dir/mergesort.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mint-box/CLionProjects/bic1-gdi-algorithmen/mergesort.c > CMakeFiles/gdi_algorithmen.dir/mergesort.c.i
 
 CMakeFiles/gdi_algorithmen.dir/mergesort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdi_algorithmen.dir/mergesort.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sebastian/CLionProjects/bic1-gdi-algorithmen/mergesort.c -o CMakeFiles/gdi_algorithmen.dir/mergesort.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mint-box/CLionProjects/bic1-gdi-algorithmen/mergesort.c -o CMakeFiles/gdi_algorithmen.dir/mergesort.c.s
 
 CMakeFiles/gdi_algorithmen.dir/binary-search.c.o: CMakeFiles/gdi_algorithmen.dir/flags.make
 CMakeFiles/gdi_algorithmen.dir/binary-search.c.o: ../binary-search.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/gdi_algorithmen.dir/binary-search.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdi_algorithmen.dir/binary-search.c.o   -c /home/sebastian/CLionProjects/bic1-gdi-algorithmen/binary-search.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/gdi_algorithmen.dir/binary-search.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/gdi_algorithmen.dir/binary-search.c.o   -c /home/mint-box/CLionProjects/bic1-gdi-algorithmen/binary-search.c
 
 CMakeFiles/gdi_algorithmen.dir/binary-search.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gdi_algorithmen.dir/binary-search.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sebastian/CLionProjects/bic1-gdi-algorithmen/binary-search.c > CMakeFiles/gdi_algorithmen.dir/binary-search.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mint-box/CLionProjects/bic1-gdi-algorithmen/binary-search.c > CMakeFiles/gdi_algorithmen.dir/binary-search.c.i
 
 CMakeFiles/gdi_algorithmen.dir/binary-search.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gdi_algorithmen.dir/binary-search.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sebastian/CLionProjects/bic1-gdi-algorithmen/binary-search.c -o CMakeFiles/gdi_algorithmen.dir/binary-search.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mint-box/CLionProjects/bic1-gdi-algorithmen/binary-search.c -o CMakeFiles/gdi_algorithmen.dir/binary-search.c.s
 
 # Object files for target gdi_algorithmen
 gdi_algorithmen_OBJECTS = \
@@ -140,7 +140,7 @@ gdi_algorithmen: CMakeFiles/gdi_algorithmen.dir/mergesort.c.o
 gdi_algorithmen: CMakeFiles/gdi_algorithmen.dir/binary-search.c.o
 gdi_algorithmen: CMakeFiles/gdi_algorithmen.dir/build.make
 gdi_algorithmen: CMakeFiles/gdi_algorithmen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable gdi_algorithmen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable gdi_algorithmen"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gdi_algorithmen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/gdi_algorithmen.dir/clean:
 .PHONY : CMakeFiles/gdi_algorithmen.dir/clean
 
 CMakeFiles/gdi_algorithmen.dir/depend:
-	cd /home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sebastian/CLionProjects/bic1-gdi-algorithmen /home/sebastian/CLionProjects/bic1-gdi-algorithmen /home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug /home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug /home/sebastian/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mint-box/CLionProjects/bic1-gdi-algorithmen /home/mint-box/CLionProjects/bic1-gdi-algorithmen /home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug /home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug /home/mint-box/CLionProjects/bic1-gdi-algorithmen/cmake-build-debug/CMakeFiles/gdi_algorithmen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gdi_algorithmen.dir/depend
 

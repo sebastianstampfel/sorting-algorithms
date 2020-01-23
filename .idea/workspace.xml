@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5db8ee4-c312-4aa9-8567-8742960147a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
@@ -34,60 +35,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/gdi_algorithmen" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gdi_algorithmen" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/gdi_algorithmen.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/gdi_algorithmen.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/annotated.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/binary-search_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/binary-search_8h.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/binary-search_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/binary-search_8h_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/bubblesort_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/bubblesort_8h_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/doxygen.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/doxygen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/dynsections.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/dynsections.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/files.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/globals.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/globals.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/globals_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/globals_func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/main_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/main_8h_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/menudata.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/menudata.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/mergesort_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/mergesort_8h.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/mergesort_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/mergesort_8h_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/quicksort_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/quicksort_8h.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/quicksort_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/quicksort_8h_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/all_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/all_0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/all_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/all_0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/all_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/all_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/all_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/all_1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/all_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/all_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/all_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/all_2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/all_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/all_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/all_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/all_3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/all_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/all_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/all_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/all_4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/classes_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/classes_0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/classes_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/classes_0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/files_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/files_0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/files_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/files_0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/files_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/files_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/files_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/files_1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/files_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/files_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/files_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/files_2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/functions_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/functions_0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/functions_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/functions_0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/functions_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/functions_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/functions_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/functions_1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/functions_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/functions_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/functions_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/functions_2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/functions_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/functions_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/functions_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/functions_3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/mag_sel.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/mag_sel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/nomatches.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/nomatches.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/search_l.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/search_l.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/search_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/search_r.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/search/searchdata.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/search/searchdata.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/structnode.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/structnode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/html/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mergesort.c" beforeDir="false" afterPath="$PROJECT_DIR$/mergesort.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/main.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +96,8 @@
       <workItem from="1579106950552" duration="3382000" />
       <workItem from="1579598121789" duration="12719000" />
       <workItem from="1579700557657" duration="3367000" />
+      <workItem from="1579795558602" duration="238000" />
+      <workItem from="1579800334332" duration="1050000" />
     </task>
     <servers />
   </component>

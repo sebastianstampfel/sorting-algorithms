@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/gdi_algorithmen.dir/main.c.o CMakeFiles/gdi_algorithmen.dir/quicksort.c.o CMakeFiles/gdi_algorithmen.dir/bubblesort.c.o CMakeFiles/gdi_algorithmen.dir/mergesort.c.o CMakeFiles/gdi_algorithmen.dir/binary-search.c.o  -o gdi_algorithmen 
+/usr/bin/cc -g   CMakeFiles/gdi_algorithmen.dir/main.c.o CMakeFiles/gdi_algorithmen.dir/quicksort.c.o CMakeFiles/gdi_algorithmen.dir/bubblesort.c.o CMakeFiles/gdi_algorithmen.dir/mergesort.c.o CMakeFiles/gdi_algorithmen.dir/binary-search.c.o  -o gdi_algorithmen -lncurses -lmenu 

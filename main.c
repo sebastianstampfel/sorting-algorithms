@@ -46,12 +46,31 @@ void itemSelectionHandler(char *name){
     clrtoeol();
     if(strcmp(name, "First item") == 0){
         printw("First item!");
-    } else if(strcmp(name, "Second item") == 0){
-        printw("Second item!");
+    } else if(strcmp(name, "Run quicksort") == 0){
+        double timeQuicksort1000 = 0;
+        double timeQuicksort5000 = 0;
+        double timeQuicksort10000 = 0;
+        double timeQuicksort25000 = 0;
+
+        quicksort(1000, &timeQuicksort1000);
+        quicksort(5000, &timeQuicksort5000);
+        quicksort(10000, &timeQuicksort10000);
+        quicksort(25000, &timeQuicksort25000);
+
+        attron(A_BOLD);
+        attron(COLOR_PAIR(1));
+        printw("Quicksort time for %d elements: %f seconds\n", 1000, timeQuicksort1000);
+        printw("Quicksort time for %d elements: %f seconds\n", 5000, timeQuicksort5000);
+        printw("Quicksort time for %d elements: %f seconds\n", 10000, timeQuicksort10000);
+        printw("Quicksort time for %d elements: %f seconds\n", 25000, timeQuicksort25000);
+        attroff(A_BOLD);
+        attroff(COLOR_PAIR(1));
+        printw("Press any key to return to menu...");
     } else {
         printw("ERROR!");
     }
     getch();
+    wclear(stdscr);
 }
 
 void drawMenuWithBox(WINDOW *window, MENU *menu){
@@ -72,11 +91,13 @@ int main() {
     raw();				    /* Line buffering disabled	*/
     keypad(stdscr, TRUE);	/* We get F1, F2 etc..		*/
     noecho();			    /* Don't echo() while we do getch */
+    start_color();
     init_pair(1, COLOR_RED, COLOR_BLACK);
 
     WINDOW *my_menu_win;
     my_menu_win = newwin(10, 40, 0, 0);
     keypad(my_menu_win, TRUE);
+    scrollok(stdscr, TRUE);
 
     ITEM *items[6];
     items[0] = new_item("Run all algorithms w/ bsearch", "");
@@ -132,7 +153,7 @@ int main() {
     free_item(items[4]);
     endwin();			    /* End curses mode		  */
 
-    char userInput = '\0';
+    /* char userInput = '\0';
     printf("GDI - Sorting algorithms and bsearch\n");
     printf("Sebastian Stampfel, 2019\n");
 
@@ -203,7 +224,7 @@ int main() {
     if(userInput != 'y'){
         return 0;
     }
-    binarysearch(500);
+    binarysearch(500); */
 
     return 0;
 }
